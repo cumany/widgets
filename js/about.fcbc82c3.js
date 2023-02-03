@@ -686,7 +686,7 @@
                             center: "",
                           },
                         }),
-                        n("div", { attrs: { id: "vcomments" } }),
+                        n("div", { attrs: { id: "" } }),
                       ],
                       1
                     ),
