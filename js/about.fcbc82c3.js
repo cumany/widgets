@@ -1454,7 +1454,6 @@
             },
             handleCopy: function () {
               var e = this;
-              splitbee.track("Create widget", { type: e.type, id: e.id }),
                 this.$message({
                   message: "创建成功，快去粘贴到📒笔记软件内体验一下吧",
                   type: "success",
@@ -2185,7 +2184,6 @@
                 (this.currentItem = e), (this.show_preview = !0);
               },
               handleCreate: function (e) {
-                splitbee.track("Select widget", { type: "eff", id: e }),
                   this.$router.replace("/create/".concat(e, "/eff"));
               },
             },
@@ -2392,7 +2390,6 @@
                   });
               },
               handleCreate: function (e) {
-                splitbee.track("Select widget", { type: "time", id: e }),
                   this.$router.replace("/create/".concat(e, "/time"));
               },
               handleSettingModal: function (e) {
@@ -2575,7 +2572,6 @@
                 (this.currentItem = e), (this.show_preview = !0);
               },
               handleCreate: function (e) {
-                splitbee.track("Select widget", { type: "others", id: e }),
                   this.$router.replace("/create/".concat(e, "/others"));
               },
             },

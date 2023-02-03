@@ -740,7 +740,6 @@
             this.show = !1;
           },
           checkCode: function () {
-            splitbee.track("Enter code");
             var t = this;
             return this.code
               ? l()(this.code) == this.$token
