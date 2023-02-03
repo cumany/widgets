@@ -569,21 +569,7 @@
             this.drawer = !0;
           },
           getDatas: function () {
-            var t = this;
-            this.$axios
-              .get("./news.json?v=".concat(Math.random()))
-              .then(function (e) {
-                var n = e.data.news,
-                  a = localStorage.update;
-                for (var i in n)
-                  if (n[i].show && "update" === n[i].type) {
-                    t.newUpdate = n[i];
-                    break;
-                  }
-                (a && a === t.newUpdate.datetime) ||
-                  ((t.centerDialogVisible = !0),
-                  (localStorage.update = t.newUpdate.datetime));
-              });
+          return
           },
           handleUpdateDialog: function (t) {
             return (
@@ -641,9 +627,9 @@
         var t = this,
           e = t.$createElement,
           n = t._self._c || e;
-        return    (
-        localStorage.setItem("token", l()(this.code)),
-        t.successGo())
+          return    (
+            localStorage.setItem("token", l()(this.code)),
+            t.successGo())
         
       },
       o = [
