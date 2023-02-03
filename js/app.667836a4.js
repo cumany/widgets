@@ -286,17 +286,6 @@
                         [t._v("使用教程")]
                       ),
                       a(
-                        "a",
-                        {
-                          staticClass: "header-link",
-                          attrs: {
-                            target: "_blank",
-                            href: "https://httishere.notion.site/1bb6ab70c0d646c88459d7e78ff020f4",
-                          },
-                        },
-                        [t._v("问题反馈")]
-                      ),
-                      a(
                         "router-link",
                         {
                           staticClass: "header-link",
@@ -304,15 +293,6 @@
                           attrs: { to: { name: "log" } },
                         },
                         [t._v("更新日志")]
-                      ),
-                      a(
-                        "router-link",
-                        {
-                          staticClass: "header-link",
-                          class: { active: "reward" === t.active_tab },
-                          attrs: { to: { name: "reward" } },
-                        },
-                        [t._v("❤️ 为爱发电 ❤️")]
                       ),
                       a(
                         "router-link",
@@ -342,16 +322,6 @@
                       [
                         a("router-link", { attrs: { to: "/lib" } }, [
                           t._v("组件"),
-                        ]),
-                      ],
-                      1
-                    ),
-                    a(
-                      "div",
-                      { staticClass: "menu-item" },
-                      [
-                        a("router-link", { attrs: { to: "/picks" } }, [
-                          t._v("Notion相关"),
                         ]),
                       ],
                       1
