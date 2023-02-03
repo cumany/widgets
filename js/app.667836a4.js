@@ -268,15 +268,6 @@
                         [t._v("组件")]
                       ),
                       a(
-                        "router-link",
-                        {
-                          staticClass: "header-link",
-                          class: { active: "picks" === t.active_tab },
-                          attrs: { to: { name: "picks" } },
-                        },
-                        [t._v("Notion")]
-                      ),
-                      a(
                         "a",
                         {
                           staticClass: "header-link",
