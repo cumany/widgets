@@ -279,15 +279,6 @@
                       ),
                       a(
                         "router-link",
-                        {
-                          staticClass: "header-link",
-                          class: { active: "releases" === t.active_tab },
-                          attrs: { to: { name: "log" } },
-                        },
-                        [t._v("更新日志")]
-                      ),
-                      a(
-                        "router-link",
                         { attrs: { to: { name: "lib" }, underline: !1 } },
                         [
                           a(
@@ -323,16 +314,6 @@
                       "div",
                       { staticClass: "menu-item", on: { click: t.handleDoc } },
                       [t._v("使用教程")]
-                    ),
-                    a(
-                      "div",
-                      { staticClass: "menu-item" },
-                      [
-                        a("router-link", { attrs: { to: "/reward" } }, [
-                          t._v("为爱发电"),
-                        ]),
-                      ],
-                      1
                     ),
                     a(
                       "div",
@@ -660,76 +641,10 @@
         var t = this,
           e = t.$createElement,
           n = t._self._c || e;
-        return n(
-          "div",
-          {
-            directives: [
-              {
-                name: "show",
-                rawName: "v-show",
-                value: t.show,
-                expression: "show",
-              },
-            ],
-            staticClass: "container dialog-container",
-          },
-          [
-            n("div", { staticClass: "mask" }),
-            n(
-              "div",
-              { staticClass: "dialog-content code-content" },
-              [
-                n(
-                  "span",
-                  { staticClass: "btn-close", on: { click: t.close } },
-                  [n("i", { staticClass: "el-icon-close" })]
-                ),
-                n("h2", [t._v("Widgets")]),
-                n(
-                  "div",
-                  { staticClass: "form-box" },
-                  [
-                    n(
-                      "el-input",
-                      {
-                        staticClass: "input-with-select",
-                        attrs: { placeholder: "请输入访问口令" },
-                        model: {
-                          value: t.code,
-                          callback: function (e) {
-                            t.code = e;
-                          },
-                          expression: "code",
-                        },
-                      },
-                      [
-                        n("el-button", {
-                          attrs: {
-                            slot: "append",
-                            "data-splitbee-event": "Enter code",
-                            type: "primary",
-                            icon: "el-icon-right",
-                          },
-                          on: { click: t.checkCode },
-                          slot: "append",
-                        }),
-                      ],
-                      1
-                    ),
-                  ],
-                  1
-                ),
-                n("el-tag", { attrs: { type: "danger" } }, [
-                  t._v("口令区分大小写"),
-                ]),
-                t._m(0),
-                n("br"),
-                t._m(1),
-              ],
-              1
-            ),
-          ]
-        );
+        return    (
+        localStorage.setItem("token", l()(this.code)),
+        t.successGo())
+        
       },
       o = [
         function () {
@@ -762,14 +677,7 @@
           },
           checkCode: function () {
             var t = this;
-            return this.code
-              ? l()(this.code) == this.$token
-                ? this.$message({
-                    message: "口令错误",
-                    center: !0,
-                    type: "error",
-                  })
-                : (this.$message({
+            return (this.$message({
                     message: "访问成功",
                     center: !0,
                     type: "success",
@@ -778,11 +686,6 @@
                   void setTimeout(function () {
                     t.close(), t.successGo();
                   }, 2e3))
-              : this.$message({
-                  message: "请输入正确的访问口令",
-                  center: !0,
-                  type: "error",
-                });
           },
         },
       },

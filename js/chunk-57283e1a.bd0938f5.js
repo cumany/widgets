@@ -409,15 +409,11 @@
           },
           methods: {
             handleCopy: function (t) {
-              splitbee.track("Buy template", { title: t.title }),
                 this.$router.push({ name: "paid" });
             },
             handleNologinCopy: function (t) {
               var e = this;
               this.$message({ message: "输入口令拷贝模版", type: "warning" }),
-                splitbee.track("Copy template without logining", {
-                  title: t.title,
-                }),
                 this.$code({
                   successGo: function () {
                     console.log("login success"), (e.isLogin = !0);
