@@ -267,15 +267,7 @@
                         },
                         [t._v("组件")]
                       ),
-                      a(
-                        "router-link",
-                        {
-                          staticClass: "header-link",
-                          class: { active: "picks" === t.active_tab },
-                          attrs: { to: { name: "picks" } },
-                        },
-                        [t._v("Notion")]
-                      ),
+
                       a(
                         "a",
                         {
@@ -286,17 +278,6 @@
                         [t._v("使用教程")]
                       ),
                       a(
-                        "a",
-                        {
-                          staticClass: "header-link",
-                          attrs: {
-                            target: "_blank",
-                            href: "https://httishere.notion.site/1bb6ab70c0d646c88459d7e78ff020f4",
-                          },
-                        },
-                        [t._v("问题反馈")]
-                      ),
-                      a(
                         "router-link",
                         {
                           staticClass: "header-link",
@@ -304,15 +285,6 @@
                           attrs: { to: { name: "log" } },
                         },
                         [t._v("更新日志")]
-                      ),
-                      a(
-                        "router-link",
-                        {
-                          staticClass: "header-link",
-                          class: { active: "reward" === t.active_tab },
-                          attrs: { to: { name: "reward" } },
-                        },
-                        [t._v("❤️ 为爱发电 ❤️")]
                       ),
                       a(
                         "router-link",
@@ -346,16 +318,7 @@
                       ],
                       1
                     ),
-                    a(
-                      "div",
-                      { staticClass: "menu-item" },
-                      [
-                        a("router-link", { attrs: { to: "/picks" } }, [
-                          t._v("Notion相关"),
-                        ]),
-                      ],
-                      1
-                    ),
+
                     a(
                       "div",
                       { staticClass: "menu-item", on: { click: t.handleDoc } },
@@ -422,30 +385,7 @@
               [a("document")],
               1
             ),
-            a(
-              "el-tooltip",
-              {
-                staticClass: "question",
-                attrs: {
-                  effect: "dark",
-                  content: "问题反馈",
-                  placement: "top",
-                },
-              },
-              [
-                a(
-                  "a",
-                  {
-                    staticClass: "feedback",
-                    attrs: {
-                      href: "https://httishere.notion.site/1bb6ab70c0d646c88459d7e78ff020f4",
-                      target: "blank",
-                    },
-                  },
-                  [t._v("?")]
-                ),
-              ]
-            ),
+
             a(
               "el-dialog",
               {
