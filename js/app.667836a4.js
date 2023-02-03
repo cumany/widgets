@@ -554,7 +554,7 @@
         components: { Document: d },
         data: function () {
           return {
-            site_name: "Widverse · 汪汪汪世界",
+            site_name: "Widgets",
             drawer: !1,
             direction: "rtl",
             newUpdate: null,

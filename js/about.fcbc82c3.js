@@ -676,17 +676,6 @@
                           ],
                           2
                         ),
-                        n("footer-reward"),
-                        n("el-alert", {
-                          staticClass: "desc-alert",
-                          attrs: {
-                            title: "评论区",
-                            type: "success",
-                            closable: !1,
-                            center: "",
-                          },
-                        }),
-                        n("div", { attrs: { id: "vcomments" } }),
                       ],
                       1
                     ),
@@ -1266,68 +1255,10 @@
           var e = this,
             t = e.$createElement,
             n = e._self._c || t;
-          return n(
-            "div",
-            { staticClass: "container wrapper" },
-            [
-              n("el-divider", [e._v("您的鼓励是我最大的动力！")]),
-              n(
-                "div",
-                { staticClass: "btn-box" },
-                [
-                  n(
-                    "el-button",
-                    {
-                      attrs: { type: "danger", round: "" },
-                      on: {
-                        click: function (t) {
-                          e.show_reward = !0;
-                        },
-                      },
-                    },
-                    [e._v("赞赏")]
-                  ),
-                ],
-                1
-              ),
-              n(
-                "div",
-                {
-                  directives: [
-                    {
-                      name: "show",
-                      rawName: "v-show",
-                      value: e.show_reward,
-                      expression: "show_reward",
-                    },
-                  ],
-                  staticClass: "reward-box",
-                },
-                [e._m(0), e._m(1)]
-              ),
-            ],
-            1
-          );
+          return ;
         },
         y = [
-          function () {
-            var e = this,
-              t = e.$createElement,
-              r = e._self._c || t;
-            return r("div", [
-              r("img", { attrs: { src: n("a94e"), alt: "微信" } }),
-              r("p", [e._v("微信")]),
-            ]);
-          },
-          function () {
-            var e = this,
-              t = e.$createElement,
-              r = e._self._c || t;
-            return r("div", [
-              r("img", { attrs: { src: n("fd78"), alt: "支付宝" } }),
-              r("p", [e._v("支付宝")]),
-            ]);
-          },
+
         ],
         b = {
           data: function () {
