@@ -277,17 +277,6 @@
                         [t._v("使用教程")]
                       ),
                       a(
-                        "a",
-                        {
-                          staticClass: "header-link",
-                          attrs: {
-                            target: "_blank",
-                            href: "https://httishere.notion.site/1bb6ab70c0d646c88459d7e78ff020f4",
-                          },
-                        },
-                        [t._v("问题反馈")]
-                      ),
-                      a(
                         "router-link",
                         {
                           staticClass: "header-link",
@@ -295,15 +284,6 @@
                           attrs: { to: { name: "log" } },
                         },
                         [t._v("更新日志")]
-                      ),
-                      a(
-                        "router-link",
-                        {
-                          staticClass: "header-link",
-                          class: { active: "reward" === t.active_tab },
-                          attrs: { to: { name: "reward" } },
-                        },
-                        [t._v("❤️ 为爱发电 ❤️")]
                       ),
                       a(
                         "router-link",
@@ -339,28 +319,8 @@
                     ),
                     a(
                       "div",
-                      { staticClass: "menu-item" },
-                      [
-                        a("router-link", { attrs: { to: "/picks" } }, [
-                          t._v("Notion相关"),
-                        ]),
-                      ],
-                      1
-                    ),
-                    a(
-                      "div",
                       { staticClass: "menu-item", on: { click: t.handleDoc } },
                       [t._v("使用教程")]
-                    ),
-                    a(
-                      "div",
-                      { staticClass: "menu-item" },
-                      [
-                        a("router-link", { attrs: { to: "/reward" } }, [
-                          t._v("为爱发电"),
-                        ]),
-                      ],
-                      1
                     ),
                     a(
                       "div",
@@ -412,30 +372,6 @@
               },
               [a("document")],
               1
-            ),
-            a(
-              "el-tooltip",
-              {
-                staticClass: "question",
-                attrs: {
-                  effect: "dark",
-                  content: "问题反馈",
-                  placement: "top",
-                },
-              },
-              [
-                a(
-                  "a",
-                  {
-                    staticClass: "feedback",
-                    attrs: {
-                      href: "https://httishere.notion.site/1bb6ab70c0d646c88459d7e78ff020f4",
-                      target: "blank",
-                    },
-                  },
-                  [t._v("?")]
-                ),
-              ]
             ),
             a(
               "el-dialog",
@@ -736,7 +672,7 @@
                   { staticClass: "btn-close", on: { click: t.close } },
                   [n("i", { staticClass: "el-icon-close" })]
                 ),
-                n("h2", [t._v("𝕎𝕚𝕕𝕧𝕖𝕣𝕤𝕖 · 汪汪汪世界")]),
+                n("h2", [t._v("Widgets")]),
                 n(
                   "div",
                   { staticClass: "form-box" },
@@ -785,44 +721,9 @@
       },
       o = [
         function () {
-          var t = this,
-            e = t.$createElement,
-            n = t._self._c || e;
-          return n("p", { staticClass: "msg" }, [
-            t._v("组件库的"),
-            n("strong", [t._v("访问口令会不定期进行更新")]),
-          ]);
         },
         function () {
-          var t = this,
-            e = t.$createElement,
-            n = t._self._c || e;
-          return n("p", { staticClass: "msg" }, [
-            t._v("\n      小红书："),
-            n(
-              "a",
-              {
-                attrs: {
-                  target: "blank",
-                  href: "https://www.xiaohongshu.com/user/profile/5c049fc9000000000800af53?xhsshare=WeixinSession&appuid=5c049fc9000000000800af53&apptime=1664074455",
-                },
-              },
-              [t._v("@肥汪卷")]
-            ),
-            t._v("\n      ｜ B站："),
-            n(
-              "a",
-              {
-                attrs: {
-                  href: "https://space.bilibili.com/19225439?spm_id_from=333.1007.0.0",
-                  target: "blank",
-                },
-              },
-              [t._v("@阿汪同学")]
-            ),
-            t._v("\n      | 微信公众号："),
-            n("a", { attrs: { href: "#" } }, [t._v("汪汪汪世界")]),
-          ]);
+      
         },
       ],
       c = n("8237"),
@@ -842,7 +743,7 @@
             splitbee.track("Enter code");
             var t = this;
             return this.code
-              ? l()(this.code) !== this.$token
+              ? l()(this.code) == this.$token
                 ? this.$message({
                     message: "口令错误",
                     center: !0,
