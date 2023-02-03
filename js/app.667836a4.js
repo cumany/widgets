@@ -875,7 +875,7 @@
                           ]),
                           a("p", [
                             t._v(
-                              "无个数限制，支持嵌入Notion，Wolai，FlowUs等笔记软件"
+                              "无个数限制，支持嵌入Notion，Wolai，FlowUs，Obsidian等笔记软件"
                             ),
                           ]),
                           a(
