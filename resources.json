@@ -1,6 +1,13 @@
 {
   "list": [
     {
+      "id": 30,
+      "cover": "./assets/widget-30.png",
+      "tag": "多彩时钟",
+      "link": "https://cuman.pptest.com.cn/widgets-html/Ob/colorclock.html",
+      "mode": "light"
+    },
+    {
       "id": 29,
       "cover": "./assets/widget-29.png",
       "tag": "范围日历",
