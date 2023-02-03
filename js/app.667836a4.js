@@ -736,7 +736,7 @@
                   { staticClass: "btn-close", on: { click: t.close } },
                   [n("i", { staticClass: "el-icon-close" })]
                 ),
-                n("h2", [t._v("Widgets")]),
+                n("h2", [t._v("𝕎𝕚𝕕𝕧𝕖𝕣𝕤𝕖 · 汪汪汪世界")]),
                 n(
                   "div",
                   { staticClass: "form-box" },
@@ -797,7 +797,32 @@
           var t = this,
             e = t.$createElement,
             n = t._self._c || e;
-          return n("p", { staticClass: "msg" }, []);
+          return n("p", { staticClass: "msg" }, [
+            t._v("\n      小红书："),
+            n(
+              "a",
+              {
+                attrs: {
+                  target: "blank",
+                  href: "https://www.xiaohongshu.com/user/profile/5c049fc9000000000800af53?xhsshare=WeixinSession&appuid=5c049fc9000000000800af53&apptime=1664074455",
+                },
+              },
+              [t._v("@肥汪卷")]
+            ),
+            t._v("\n      ｜ B站："),
+            n(
+              "a",
+              {
+                attrs: {
+                  href: "https://space.bilibili.com/19225439?spm_id_from=333.1007.0.0",
+                  target: "blank",
+                },
+              },
+              [t._v("@阿汪同学")]
+            ),
+            t._v("\n      | 微信公众号："),
+            n("a", { attrs: { href: "#" } }, [t._v("汪汪汪世界")]),
+          ]);
         },
       ],
       c = n("8237"),
@@ -817,7 +842,7 @@
             splitbee.track("Enter code");
             var t = this;
             return this.code
-              ? l()(this.code) == this.$token
+              ? l()(this.code) !== this.$token
                 ? this.$message({
                     message: "口令错误",
                     center: !0,
