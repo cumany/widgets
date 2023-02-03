@@ -4,14 +4,14 @@
       "id": 29,
       "cover": "./assets/widget-29.png",
       "tag": "范围日历",
-      "link": "https://httishere.gitee.io/notion/calendarByWeek.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/calendarByWeek.html",
       "mode": "light"
     },
     {
       "id": 30,
       "cover": "./assets/shadow-clock.png",
       "tag": "发光时钟",
-      "link": "https://httishere.gitee.io/notion/v201/e'clock.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v201/e'clock.html",
       "mode": "dark",
       "dark": true,
       "color_unset": true
@@ -20,7 +20,7 @@
       "id": 28,
       "cover": "./assets/days-matter2.png",
       "tag": "渐变倒数日",
-      "link": "https://httishere.gitee.io/notion/days-matter2.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/days-matter2.html",
       "mode": "all",
       "dark": false,
       "color_unset": true
@@ -29,7 +29,7 @@
       "id": 27,
       "cover": "./assets/days-matter.png",
       "tag": "卡片倒数日",
-      "link": "https://httishere.gitee.io/notion/days-matter.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/days-matter.html",
       "mode": "all",
       "dark": false,
       "color_unset": true
@@ -38,7 +38,7 @@
       "id": 26,
       "cover": "./assets/food-cal.png",
       "tag": "随机图标日历（3种主题",
-      "link": "https://httishere.gitee.io/notion/v4/month.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v4/month.html",
       "mode": "all",
       "dark": false,
       "color_unset": true,
@@ -47,17 +47,17 @@
         {
           "key": "",
           "label": "水果主题",
-          "link": "https://httishere.gitee.io/notion/v4/month.html"
+          "link": "https://cuman.pptest.com.cn/widgets-html/v4/month.html"
         },
         {
           "key": "drink",
           "label": "饮料主题",
-          "link": "https://httishere.gitee.io/notion/v4/month_drink.html"
+          "link": "https://cuman.pptest.com.cn/widgets-html/v4/month_drink.html"
         },
         {
           "key": "food",
           "label": "食物主题",
-          "link": "https://httishere.gitee.io/notion/v4/month_food.html"
+          "link": "https://cuman.pptest.com.cn/widgets-html/v4/month_food.html"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "id": 25,
       "cover": "./assets/retro-cal.png",
       "tag": "中古日历（6种配色",
-      "link": "https://httishere.gitee.io/notion/v3/retro-calendar.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/retro-calendar.html",
       "mode": "all",
       "dark": false,
       "color_unset": true,
@@ -84,7 +84,7 @@
       "id": 24,
       "cover": "./assets/countdown-k.png",
       "tag": "极简倒数日",
-      "link": "https://httishere.gitee.io/notion/new/countdown.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/countdown.html",
       "mode": "all",
       "dark": false,
       "color_unset": true
@@ -93,7 +93,7 @@
       "id": 23,
       "cover": "./assets/green-calendar.png",
       "tag": "插画日历",
-      "link": "https://httishere.gitee.io/notion/v3/month-kt.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/month-kt.html",
       "mode": "all",
       "dark": false,
       "monday": true,
@@ -105,7 +105,7 @@
       "id": 22,
       "cover": "./assets/calendar-moon.png",
       "tag": "月相日历",
-      "link": "https://httishere.gitee.io/notion/v3/month-moon.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/month-moon.html",
       "mode": "all",
       "dark": false,
       "monday": true,
@@ -115,7 +115,7 @@
       "id": 20,
       "cover": "./assets/seek-month.png",
       "tag": "极简日历",
-      "link": "https://httishere.gitee.io/notion/v3/month.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/month.html",
       "mode": "all",
       "dark": false,
       "monday": true,
@@ -125,7 +125,7 @@
       "id": 19,
       "cover": "./assets/time_is.png",
       "tag": "极简日进度",
-      "link": "https://httishere.gitee.io/notion/v3/day.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/day.html",
       "mode": "all",
       "dark": false,
       "font_color": "#333333",
@@ -135,7 +135,7 @@
       "id": 18,
       "cover": "./assets/clock.png",
       "tag": "极简时钟",
-      "link": "https://httishere.gitee.io/notion/new/clock2.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/clock2.html",
       "mode": "all",
       "dark": false,
       "size": "auto"
@@ -144,7 +144,7 @@
       "id": 17,
       "cover": "./assets/20220112110301.png",
       "tag": "克莱因蓝周日历",
-      "link": "https://httishere.gitee.io/notion/new/blue-week.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/blue-week.html",
       "mode": "all",
       "dark": false,
       "monday": true,
@@ -156,7 +156,7 @@
       "id": 16,
       "cover": "./assets/20220111181002.png",
       "tag": "日历卡片",
-      "link": "https://httishere.gitee.io/notion/new/calendar_b.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/calendar_b.html",
       "mode": "light",
       "monday": true
     },
@@ -164,14 +164,14 @@
       "id": 15,
       "cover": "./assets/Xnip2022-01-11_11-26-50.jpg",
       "tag": "限定周",
-      "link": "https://httishere.gitee.io/notion/new/highlight-week.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/highlight-week.html",
       "mode": "all"
     },
     {
       "id": 14,
       "cover": "./assets/20220106152448.png",
       "tag": "桌面时钟",
-      "link": "https://httishere.gitee.io/notion/new/big-clock.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/big-clock.html",
       "mode": "all",
       "dark": false
     },
@@ -179,13 +179,13 @@
       "id": 13,
       "cover": "./assets/20220106143157.png",
       "tag": "人生进度条",
-      "link": "https://httishere.gitee.io/notion/new/personal-progress.html"
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/personal-progress.html"
     },
     {
       "id": 12,
       "cover": "./assets/Xnip2022-01-06_12-37-34.jpg",
       "tag": "日历卡片",
-      "link": "https://httishere.gitee.io/notion/new/calendar.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/calendar.html",
       "mode": "all",
       "dark": false,
       "monday": true
@@ -194,13 +194,13 @@
       "id": 11,
       "cover": "./assets/20220105113554.png",
       "tag": "多项倒计时",
-      "link": "https://httishere.gitee.io/notion/new/mul-days-matter.html"
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/mul-days-matter.html"
     },
     {
       "id": 10,
       "cover": "./assets/Xnip2022-01-04_16-02-47.jpg",
       "tag": "纵向时间进度条",
-      "link": "https://httishere.gitee.io/notion/new/progress-vertical.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/progress-vertical.html",
       "mode": "light",
       "dark": false,
       "size": "auto"
@@ -209,7 +209,7 @@
       "id": 9,
       "cover": "./assets/Xnip2022-01-04_16-02-18.jpg",
       "tag": "时间进度条",
-      "link": "https://httishere.gitee.io/notion/new/progress.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/progress.html",
       "mode": "light",
       "dark": false
     },
@@ -217,7 +217,7 @@
       "id": 8,
       "cover": "./assets/20220104112833.png",
       "tag": "周进度",
-      "link": "https://httishere.gitee.io/notion/new/week-ceils.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/week-ceils.html",
       "mode": "light",
       "dark": false,
       "size": "auto"
@@ -226,7 +226,7 @@
       "id": 7,
       "cover": "./assets/20220104111624.png",
       "tag": "年度格子",
-      "link": "https://httishere.gitee.io/notion/new/year-block.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/year-block.html",
       "mode": "all",
       "dark": false
     },
@@ -234,27 +234,27 @@
       "id": 6,
       "cover": "./assets/QQ20211230-182424-HD.gif",
       "tag": "动画缤纷时钟",
-      "link": "https://httishere.gitee.io/notion/colorful-svg-time_w.html"
+      "link": "https://cuman.pptest.com.cn/widgets-html/colorful-svg-time_w.html"
     },
     {
       "id": 1,
       "cover": "./assets/20211230144940.png",
       "tag": "进度时钟",
-      "link": "https://httishere.gitee.io/notion/progress.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/progress.html",
       "mode": "light"
     },
     {
       "id": 2,
       "cover": "./assets/20211230151833.png",
       "tag": "季度进度条",
-      "link": "https://httishere.gitee.io/notion/quarterly-progress.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/quarterly-progress.html",
       "mode": "light"
     },
     {
       "id": 3,
       "cover": "./assets/20211230170132.png",
       "tag": "日历",
-      "link": "https://httishere.gitee.io/notion/calendar.html",
+      "link": "https://cuman.pptest.com.cn/widgets-html/calendar.html",
       "mode": "light",
       "dark": false
     }
