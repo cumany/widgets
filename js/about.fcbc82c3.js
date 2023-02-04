@@ -1101,6 +1101,41 @@
                       1
                     ),
                   ]
+                  : e._e(),
+                  31 === e.item.id
+                    ? [
+                        n(
+                          "el-form-item",
+                          { attrs: { label: "语言" } },
+                          [
+                            n(
+                              "el-select",
+                              {
+                                attrs: { placeholder: "请选择" },
+                                model: {
+                                  value: e.form.lan,
+                                  callback: function (t) {
+                                    e.$set(e.form, "lan", t);
+                                  },
+                                  expression: "form.lan",
+                                },
+                              },
+                              [
+                                n("el-option", {
+                                  key: "cn",
+                                  attrs: { label: "中文", value: "cn" },
+                                }),
+                                n("el-option", {
+                                  key: "en",
+                                  attrs: { label: "英文", value: "en" },
+                                }),
+                              ],
+                              1
+                            ),
+                          ],
+                          1
+                        ),
+                      ]
                 : e._e(),
               1004 === e.item.id
                 ? [
