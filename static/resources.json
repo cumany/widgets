@@ -1,0 +1,331 @@
+{
+  "list": [
+    {
+      "id": 32,
+      "cover": "./assets/wids/widget-32.JPG",
+      "tag": "My days（倒数日&纪念日&正数日）",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v203/countdown-card.html",
+      "bg_color": "#4E6AD9",
+      "font_color": "#ffffff",
+      "background": [
+        { "key": 1, "url": "./assets/wids-bg/card-bg-1.jpg" },
+        { "key": 2, "url": "./assets/wids-bg/card-bg-2.jpg" },
+        { "key": 3, "url": "./assets/wids-bg/card-bg-3.jpg" },
+        { "key": 4, "url": "./assets/wids-bg/card-bg-4.jpg" },
+        { "key": 5, "url": "./assets/wids-bg/card-bg-5.jpg" },
+        { "key": 6, "url": "./assets/wids-bg/card-bg-6.jpg" },
+        { "key": 7, "url": "./assets/wids-bg/card-bg-7.jpg" },
+        { "key": 8, "url": "./assets/wids-bg/card-bg-8.jpg" },
+        { "key": 9, "url": "./assets/wids-bg/card-bg-9.jpg" },
+        { "key": 10, "url": "./assets/wids-bg/card-bg-10.jpg" },
+        { "key": 11, "url": "./assets/wids-bg/card-bg-11.jpg" },
+        { "key": 12, "url": "./assets/wids-bg/card-bg-12.jpg" },
+        { "key": 13, "url": "./assets/wids-bg/card-bg-13.jpg" },
+        { "key": 14, "url": "./assets/wids-bg/card-bg-14.jpg" },
+        { "key": 15, "url": "./assets/wids-bg/card-bg-15.jpg" },
+        { "key": 0 }
+      ],
+      "desc": "插画图片 cr ins：illusbujo，侵删",
+      "size": "auto",
+      "mode": "all",
+      "hide": false,
+      "close": false,
+      "advance": true,
+      "timestamp": "1675776271295"
+    },
+    {
+      "id": 31,
+      "cover": "./assets/wids/widget-31.png",
+      "tag": "区间进度条",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v201/custom-progress.html",
+      "mode": "all",
+      "timestamp": "1674748800000"
+    },
+    {
+      "id": 29,
+      "cover": "./assets/widget-29.png",
+      "tag": "范围日历",
+      "link": "https://cuman.pptest.com.cn/widgets-html/calendarByWeek.html",
+      "mode": "light",
+      "timestamp": "1673107200000"
+    },
+    {
+      "id": 30,
+      "cover": "./assets/shadow-clock.png",
+      "tag": "发光数字时钟",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v201/e'clock.html",
+      "mode": "dark",
+      "dark": true,
+      "color_unset": true,
+      "desc": "参考了其他开源代码样式",
+      "timestamp": "1671638400000"
+    },
+    {
+      "id": 28,
+      "cover": "./assets/days-matter2.png",
+      "tag": "渐变倒数日",
+      "link": "https://cuman.pptest.com.cn/widgets-html/days-matter2.html",
+      "mode": "all",
+      "dark": false,
+      "color_unset": true,
+      "timestamp": "1671638400000"
+    },
+    {
+      "id": 27,
+      "cover": "./assets/days-matter.png",
+      "tag": "卡片倒数日",
+      "link": "https://cuman.pptest.com.cn/widgets-html/days-matter.html",
+      "mode": "all",
+      "dark": false,
+      "color_unset": true,
+      "timestamp": "1671638400000"
+    },
+    {
+      "id": 26,
+      "cover": "./assets/food-cal.png",
+      "tag": "随机图标日历（3种主题",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v4/month.html",
+      "mode": "all",
+      "dark": false,
+      "color_unset": true,
+      "monday": true,
+      "theme": [
+        {
+          "key": "",
+          "label": "水果主题",
+          "link": "https://cuman.pptest.com.cn/widgets-html/v4/month.html"
+        },
+        {
+          "key": "drink",
+          "label": "饮料主题",
+          "link": "https://cuman.pptest.com.cn/widgets-html/v4/month_drink.html"
+        },
+        {
+          "key": "food",
+          "label": "食物主题",
+          "link": "https://cuman.pptest.com.cn/widgets-html/v4/month_food.html"
+        }
+      ],
+      "timestamp": "1671638400000"
+    },
+    {
+      "id": 25,
+      "cover": "./assets/retro-cal.png",
+      "tag": "中古日历（6种配色",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/retro-calendar.html",
+      "mode": "all",
+      "dark": false,
+      "color_unset": true,
+      "monday": true,
+      "theme": [
+        { "key": 0, "label": "美式复古" },
+        { "key": 6, "label": "美式复古2" },
+        { "key": 3, "label": "港式复古" },
+        { "key": 4, "label": "奶油蓝" },
+        { "key": 8, "label": "奶油粉紫" },
+        { "key": 2, "label": "森系复古绿" }
+      ],
+      "size": "auto",
+      "timestamp": "1671638400000"
+    },
+    {
+      "id": 24,
+      "cover": "./assets/countdown-k.png",
+      "tag": "极简倒数日",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/countdown.html",
+      "mode": "all",
+      "dark": false,
+      "color_unset": true,
+      "timestamp": "1671638400000"
+    },
+    {
+      "id": 23,
+      "cover": "./assets/green-calendar.png",
+      "tag": "插画日历",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/month-kt.html",
+      "mode": "all",
+      "dark": false,
+      "monday": true,
+      "bg_color": "#709a65",
+      "font_color": "#ffffff",
+      "color_unset": true,
+      "timestamp": "1658419200000"
+    },
+    {
+      "id": 22,
+      "cover": "./assets/calendar-moon.png",
+      "tag": "月相日历",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/month-moon.html",
+      "mode": "all",
+      "dark": false,
+      "monday": true,
+      "font_color": "#333333",
+      "timestamp": "1658419200000"
+    },
+    {
+      "id": 20,
+      "cover": "./assets/seek-month.png",
+      "tag": "极简日历",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/month.html",
+      "mode": "all",
+      "dark": false,
+      "monday": true,
+      "font_color": "#333333",
+      "timestamp": "1658419200000"
+    },
+    {
+      "id": 19,
+      "cover": "./assets/time_is.png",
+      "tag": "极简日进度",
+      "link": "https://cuman.pptest.com.cn/widgets-html/v3/day.html",
+      "mode": "all",
+      "dark": false,
+      "font_color": "#333333",
+      "size": "auto",
+      "timestamp": "1658419200000"
+    },
+    {
+      "id": 18,
+      "cover": "./assets/clock.png",
+      "tag": "极简时钟",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/clock2.html",
+      "mode": "all",
+      "dark": false,
+      "size": "auto",
+      "timestamp": "1658419200000"
+    },
+    {
+      "id": 17,
+      "cover": "./assets/20220112110301.png",
+      "tag": "克莱因蓝周日历",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/blue-week.html",
+      "mode": "all",
+      "dark": false,
+      "monday": true,
+      "bg_color": "#002fa7",
+      "font_color": "#ffffff",
+      "size": "auto",
+      "timestamp": "1641916800000"
+    },
+    {
+      "id": 16,
+      "cover": "./assets/20220111181002.png",
+      "tag": "日历卡片",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/calendar_b.html",
+      "mode": "light",
+      "monday": true,
+      "timestamp": "1641916800000"
+    },
+    {
+      "id": 15,
+      "cover": "./assets/Xnip2022-01-11_11-26-50.jpg",
+      "tag": "限定周",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/highlight-week.html",
+      "mode": "all",
+      "timestamp": "1641916800000"
+    },
+    {
+      "id": 14,
+      "cover": "./assets/20220106152448.png",
+      "tag": "桌面时钟",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/big-clock.html",
+      "mode": "all",
+      "dark": false,
+      "timestamp": "1641398400000"
+    },
+    {
+      "id": 13,
+      "cover": "./assets/20220106143157.png",
+      "tag": "人生进度条",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/personal-progress.html",
+      "timestamp": "1641398400000"
+    },
+    {
+      "id": 12,
+      "cover": "./assets/Xnip2022-01-06_12-37-34.jpg",
+      "tag": "日历卡片",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/calendar.html",
+      "mode": "all",
+      "dark": false,
+      "monday": true,
+      "timestamp": "1641398400000"
+    },
+    {
+      "id": 11,
+      "cover": "./assets/20220105113554.png",
+      "tag": "多项倒计时",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/mul-days-matter.html",
+      "timestamp": "1641312000000"
+    },
+    {
+      "id": 10,
+      "cover": "./assets/Xnip2022-01-04_16-02-47.jpg",
+      "tag": "纵向时间进度条",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/progress-vertical.html",
+      "mode": "light",
+      "dark": false,
+      "size": "auto",
+      "timestamp": "1641225600000"
+    },
+    {
+      "id": 9,
+      "cover": "./assets/Xnip2022-01-04_16-02-18.jpg",
+      "tag": "时间进度条",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/progress.html",
+      "mode": "light",
+      "dark": false,
+      "timestamp": "1641225600000"
+    },
+    {
+      "id": 8,
+      "cover": "./assets/20220104112833.png",
+      "tag": "周进度",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/week-ceils.html",
+      "mode": "light",
+      "dark": false,
+      "size": "auto",
+      "timestamp": "1641225600000"
+    },
+    {
+      "id": 7,
+      "cover": "./assets/20220104111624.png",
+      "tag": "年度格子",
+      "link": "https://cuman.pptest.com.cn/widgets-html/new/year-block.html",
+      "mode": "all",
+      "dark": false,
+      "timestamp": "1640793600000"
+    },
+    {
+      "id": 6,
+      "cover": "./assets/QQ20211230-182424-HD.gif",
+      "tag": "动画缤纷时钟",
+      "link": "https://cuman.pptest.com.cn/widgets-html/colorful-svg-time_w.html",
+      "timestamp": "1640793600000"
+    },
+    {
+      "id": 1,
+      "cover": "./assets/20211230144940.png",
+      "tag": "进度时钟",
+      "link": "https://cuman.pptest.com.cn/widgets-html/progress.html",
+      "mode": "light",
+      "timestamp": "1640793600000"
+    },
+    {
+      "id": 2,
+      "cover": "./assets/20211230151833.png",
+      "tag": "季度进度条",
+      "link": "https://cuman.pptest.com.cn/widgets-html/quarterly-progress.html",
+      "mode": "light",
+      "timestamp": "1640793600000"
+    },
+    {
+      "id": 3,
+      "cover": "./assets/20211230170132.png",
+      "tag": "日历",
+      "link": "https://cuman.pptest.com.cn/widgets-html/calendar.html",
+      "mode": "light",
+      "dark": false,
+      "timestamp": "1640793600000"
+    }
+  ]
+}
